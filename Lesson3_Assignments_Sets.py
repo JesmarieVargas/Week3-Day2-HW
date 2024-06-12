@@ -17,7 +17,9 @@ Flight Comparison
 5- Quit
  ''')
         if input1 == "1":
+            print("Our Routes")
             print(our_routes)
+            print("Competitor Routes")
             print(competitor_routes)
         elif input1 == "2":
             both()
